@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>你的名字</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#contact">联系方式</a></li>
+                    <li><a href="#projects">项目展示</a></li>
+                    <li><a href="#experience">工作经验</a></li>
+                    <li><a href="#education">教育背景</a></li>
+                    <li><a href="#about">个人简介</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>个人简介</h2>
+        <p>在此处填写你的个人简介，介绍你的背景、兴趣和专业领域。</p>
+    </section>
+
+    <section id="education" class="container">
+        <h2>教育背景</h2>
+        <ul>
+            <li>学校名称 - 学位 - 年份</li>
+            <li>学校名称 - 学位 - 年份</li>
+            <!-- 继续添加你的教育背景 -->
+        </ul>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>工作经验</h2>
+        <ul>
+            <li>公司名称 - 职位 - 年份</li>
+            <li>公司名称 - 职位 - 年份</li>
+            <!-- 继续添加你的工作经验 -->
+        </ul>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>项目展示</h2>
+        <ul>
+            <li>项目名称 - 简要描述</li>
+            <li>项目名称 - 简要描述</li>
+            <!-- 继续添加你的项目 -->
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>联系方式</h2>
+        <p>电子邮件: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>电话: 你的电话号码</p>
+        <!-- 继续添加其他联系方式 -->
+    </section>
+
+    <footer>
+        <p>版权所有 &copy; 2024 你的名字</p>
+    </footer>
+</body>
+</html>
